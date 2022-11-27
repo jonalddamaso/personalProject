@@ -159,13 +159,13 @@ function resetRPS() {
     var newScissorsImg = document.createElement('img');
     // rock
     newRockImg.setAttribute('id', 'rock');
-    newRockImg.setAttribute('src', 'http://images.clipartpanda.com/rock-clipart-clipart-harvestable-resources-rock.png');
+    newRockImg.setAttribute('src', 'static/images/rock.png');
     newRockImg.setAttribute('height', 150);
     newRockImg.setAttribute('width',150);
     newRockImg.setAttribute('onclick', 'rpsGame(this)');
     // paper
     newPaperImg.setAttribute('id', 'paper');
-    newPaperImg.setAttribute('src', 'http://images.clipartpanda.com/paper-clipart-nexxuz-Loose-Leaf-Paper.png');
+    newPaperImg.setAttribute('src', 'static/images/paper.png');
     newPaperImg.setAttribute('height', 150);
     newPaperImg.setAttribute('width',150);
     newPaperImg.setAttribute('onclick', 'rpsGame(this)');
